@@ -1,0 +1,14 @@
+.headingNotify {
+    border-bottom: 2px solid #ffc71f;
+}
+
+.headingMsg {
+    background-color: #fff3cd;
+    border-bottom: 2px solid #fff3cd;
+}
+
+@media (max-width: 767.5px) {
+    .right {
+        margin-top: 2rem;
+    }
+}
