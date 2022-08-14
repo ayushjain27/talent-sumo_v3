@@ -26,6 +26,7 @@ import Introduce from './Components/Videos/Introduce';
 import Recording from './Components/Videos/Recording';
 import Start from './Components/Videos/Start';
 import Question from './Components/Videos/Question';
+import AudioRecording from './Components/Audios/AudioRecording';
 
 function App() {
 
@@ -66,6 +67,7 @@ function App() {
           <Route exact path='/recording' element={<Recording />} />
           <Route exact path='/start' element={<Start />} />
           <Route exact path='/question' element={<Question />} />
+          <Route exact path='/audiorecording' element={<AudioRecording />} />
         </Routes>
       </Router>
     </>

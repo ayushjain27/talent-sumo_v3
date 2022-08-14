@@ -124,32 +124,26 @@ const Form = () => {
                 >
                   Validate
                 </button>
-                <hr
-                  style={{
-                    color: "#ffc107",
-                    borderTop: "2px solid",
-                    opacity: "1",
-                  }}
-                />
+                <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
                 <div className={`${display ? "" : "d-none"}`}>
-                  <h3 className="text-center mb-3">Instructions:</h3>
+                  <h2 className="text-center mb-3">Instructions:</h2>
                   <div className="mb-3 text-center">
-                    Please make sure you are in the center of the camera.
-                    <hr />
-                    Make sure you have good lighting.
-                    <hr />
-                    Use Professional dress when recording.
-                    <hr />
-                    Avoid glaze and light directly to the recording camera.
-                    <hr />
-                    Not ready for video yet? Toggle video off to record responses as audio.
-                    <hr />
-                    You will have a preview of the video before you finalize.
-                    <hr />
-                    Limit your answers to two minutes, timer will guide you. ⏲️
-                    <hr />
-                    And lastly smile more, smile often. Good luck! 😊
-                    <hr />
+                    <h6>Please make sure you are in the center of the camera.</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>Make sure you have good lighting.</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>Use Professional dress when recording.</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>Avoid glaze and light directly to the recording camera.</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>Not ready for video yet? Toggle video off to record responses as audio.</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>You will have a preview of the video before you finalize.</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>Limit your answers to two minutes, timer will guide you. ⏲️</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
+                   <h6>And lastly smile more, smile often. Good luck! 😊</h6>
+                    <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }}/>
                   </div>
                   <button onClick={handleStartTest} className="btn btn-dark float-end">Start Test</button>
                 </div>
