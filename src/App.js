@@ -24,6 +24,8 @@ import Welcome from './Components/Videos/Welcome';
 import Work from './Components/Videos/Work';
 import Introduce from './Components/Videos/Introduce';
 import Recording from './Components/Videos/Recording';
+import Start from './Components/Videos/Start';
+import Question from './Components/Videos/Question';
 
 function App() {
 
@@ -62,6 +64,8 @@ function App() {
           <Route exact path='/work' element={<Work />} />
           <Route exact path='/introduce' element={<Introduce />} />
           <Route exact path='/recording' element={<Recording />} />
+          <Route exact path='/start' element={<Start />} />
+          <Route exact path='/question' element={<Question />} />
         </Routes>
       </Router>
     </>
