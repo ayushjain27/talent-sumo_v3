@@ -20,7 +20,7 @@ const Work = () => {
             <div className="fs-5 mb-2 ms-3 me-3">It’s really easy. Questions have been prepared for you in advance, and you are simply required to record your answers to them using the camera and microphone of your computer, tablet, or phone.</div>
             <div className="fs-5 mb-3 ms-3 me-3">Don’t worry if something goes wrong during the recording, these things happen. The good news is you can always completely start afresh using the original link provided, but please bear in mind, that Cognizant will receive all of the recordings you submit.</div>
             <button onClick={handleNext} type="button" className="btn btn-success w-100 mt-3 fw-bold rounded-pill ms-3 me-3">Next</button>
-            <div onClick={handleWelcome} className={`${styles.welcome} mt-3 mb-3 fw-bold`}>Welcome</div>
+            <div onClick={handleWelcome} className={`${styles.welcome} mt-3 mb-3 fw-bold`}>&#60;-- Welcome</div>
           </div>
         </div>
       </div>

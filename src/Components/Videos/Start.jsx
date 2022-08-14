@@ -22,7 +22,7 @@ const Start = () => {
             <div className="fs-5 mb-3 ms-3 me-3">Please note, you may need to grant permission on your device again to use your camera and microphone.</div>
             <h4 className='mb-3 ms-3 me-3'>Best of Luck!</h4>
             <button onClick={handleNext} type="button" className="btn btn-success w-100 mt-3 fw-bold rounded-pill ms-3 me-3">Start Interview</button>
-            <div onClick={handleDevice} className={`${styles.device} mt-3 mb-3 fw-bold`}>STEP 2: Let's check your device</div>
+            <div onClick={handleDevice} className={`${styles.device} mt-3 mb-3 fw-bold`}>&#60;-- STEP 2: Let's check your device</div>
           </div>
         </div>
       </div>
